@@ -1,0 +1,7 @@
+{
+	"main": "index.js",
+	"dependencies": {
+		"axios": "^0.25.0",
+		"zcatalyst-integ-cliq": "latest"
+	}
+}

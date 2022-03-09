@@ -1,0 +1,24 @@
+{
+    "execution": {
+        "main": "index.js"
+    },
+    "deployment": {
+        "stack": "node14",
+        "integration_config": [
+            {
+                "service": "ZohoCliq",
+                "handlers": {
+                    "bot_handler": "handlers\/bot-handler.js",
+                    "function_handler": "handlers\/function-handler.js",
+                    "installation_validator": "handlers\/installation-validator.js",
+                    "command_handler": "handlers\/command-handler.js",
+                    "widget_handler": "handlers\/widget-handler.js",
+                    "messageaction_handler": "handlers\/message-action-handler.js",
+                    "installation_handler": "handlers\/installation-handler.js"
+                }
+            }
+        ],
+        "name": "cliqwidgetfunc",
+        "type": "integration"
+    }
+}

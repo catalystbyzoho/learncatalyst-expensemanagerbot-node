@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "targets": [
+      "expenseMgrWeeklyCronFunc",
+      "cliqwidgetfunc"
+    ],
+    "ignore": [],
+    "source": "functions"
+  }
+}
